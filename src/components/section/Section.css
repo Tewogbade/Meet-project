@@ -1,0 +1,23 @@
+#images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 5rem;
+  column-gap: 2rem;
+}
+#images img {
+  width: 100%;
+  border-radius: 1rem;
+}
+@media (max-width: 576px) {
+  #images {
+    display: block;
+    margin: 3rem;
+  }
+  #images img {
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 0;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+}

@@ -1,0 +1,31 @@
+main {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+main h5 {
+  color: rgb(74, 150, 166);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+main p {
+  padding: 0 30rem;
+}
+
+@media (max-width: 576px) {
+  main p {
+    padding: 0 2rem 2rem;
+  }
+  main h1 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 1199px) {
+  main p {
+    padding: 0 3rem;
+    margin: 0 0rem 3rem;
+  }
+  main h1 {
+    margin-bottom: 0;
+  }
+}
